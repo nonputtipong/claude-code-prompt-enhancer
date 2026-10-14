@@ -1,0 +1,11 @@
+{
+  "name": "prompt-enhancer",
+  "version": "1.0.0",
+  "description": "Adds a ✻ Enhance button above the prompt box that rewrites your draft into a clearer, project-aware prompt without sending it.",
+  "author": { "name": "nonputtipong", "url": "https://github.com/nonputtipong" },
+  "homepage": "https://github.com/nonputtipong/claude-code-prompt-enhancer",
+  "repository": "https://github.com/nonputtipong/claude-code-prompt-enhancer",
+  "license": "MIT",
+  "keywords": ["prompt", "enhance", "rewrite", "mod", "desktop"],
+  "types": "./types/index.d.ts"
+}

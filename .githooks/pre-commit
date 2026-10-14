@@ -1,0 +1,5 @@
+#!/bin/sh
+# Validates and tests the mod before a commit that touches it.
+# Turn on once per clone: git config core.hooksPath .githooks
+git diff --cached --name-only | grep -qE '^(plugins/|\.claude-plugin/)' || exit 0
+claude plugin validate plugins/prompt-enhancer && claude plugin validate . && claude plugin test plugins/prompt-enhancer

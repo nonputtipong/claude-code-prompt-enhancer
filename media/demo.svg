@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="t d">
+  <title id="t">Prompt Enhancer: before and after</title>
+  <desc id="d">A rough draft, make this website look better, becomes a clear prompt in the same box after clicking Enhance. Nothing is sent until you press Send.</desc>
+  <defs>
+    <symbol id="spark" viewBox="-64 -64 128 128">
+      <g fill="#F0A483">
+        <ellipse cx="0" cy="-31" rx="9" ry="31"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(45)"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(90)"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(135)"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(225)"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(270)"/>
+        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(315)"/>
+      </g>
+    </symbol>
+    <style>
+      text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+      .muted { fill: #A3A09A; }
+      .dim { fill: #77736d; }
+      .body { fill: #ECEAE5; }
+      .caret { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .caret { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="720" rx="24" fill="#191918"/>
+  <rect x="0.5" y="0.5" width="1279" height="719" rx="23.5" fill="none" stroke="#33312e"/>
+
+  <!-- Steps -->
+  <g font-size="18" font-weight="600">
+    <circle cx="300" cy="56" r="15" fill="#2a2826" stroke="#3a3936"/>
+    <text x="300" y="62" text-anchor="middle" class="body">1</text>
+    <text x="324" y="62" class="body">Write a rough draft</text>
+    <circle cx="540" cy="56" r="15" fill="#D97757"/>
+    <text x="540" y="62" text-anchor="middle" fill="#191918">2</text>
+    <text x="564" y="62" class="body">Click Enhance</text>
+    <circle cx="742" cy="56" r="15" fill="#2a2826" stroke="#3a3936"/>
+    <text x="742" y="62" text-anchor="middle" class="body">3</text>
+    <text x="766" y="62" class="body">Review, edit, then Send</text>
+  </g>
+
+  <!-- BEFORE -->
+  <text x="48" y="122" font-size="14" font-weight="700" letter-spacing="2" class="dim">BEFORE</text>
+  <rect x="48" y="138" width="564" height="54" rx="12" fill="#232220"/>
+  <rect x="482" y="149" width="118" height="32" rx="8" fill="#3a3936" stroke="#D97757" stroke-width="2"/>
+  <use xlink:href="#spark" href="#spark" x="494" y="157" width="16" height="16"/>
+  <text x="516" y="171" font-size="15" font-weight="600" class="body">Enhance</text>
+  <!-- pointer -->
+  <path d="M560 172 l0 22 l6 -5 l4 10 l4 -2 l-4 -10 l8 0 z" fill="#ECEAE5" stroke="#191918" stroke-width="1.5"/>
+
+  <rect x="48" y="206" width="564" height="360" rx="16" fill="#262624" stroke="#3d3b38"/>
+  <text x="76" y="246" font-size="18" class="body">make this website look better</text>
+  <rect x="316" y="230" width="2" height="22" fill="#ECEAE5" class="caret"/>
+  <text x="76" y="548" font-size="22" class="dim">+</text>
+  <text x="62" y="604" font-size="15" class="muted">Bypass permissions</text>
+  <text x="598" y="604" font-size="15" text-anchor="end" class="muted"><tspan class="body">Opus 5.5</tspan>  Medium</text>
+
+  <!-- Arrow -->
+  <g transform="translate(640 386)">
+    <circle r="22" fill="#2a2826" stroke="#D97757" stroke-opacity="0.6"/>
+    <path d="M-8 0 h14 M1 -7 l7 7 l-7 7" fill="none" stroke="#F0A483" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- AFTER -->
+  <text x="668" y="122" font-size="14" font-weight="700" letter-spacing="2" fill="#F0A483">AFTER ENHANCE</text>
+  <rect x="668" y="138" width="564" height="54" rx="12" fill="#232220"/>
+  <rect x="932" y="149" width="164" height="32" rx="8" fill="#2f2e2b"/>
+  <text x="1014" y="171" font-size="15" text-anchor="middle" class="muted">↩ Restore original</text>
+  <rect x="1106" y="149" width="114" height="32" rx="8" fill="#3a3936"/>
+  <use xlink:href="#spark" href="#spark" x="1117" y="157" width="16" height="16"/>
+  <text x="1139" y="171" font-size="15" font-weight="600" class="body">Enhance</text>
+
+  <rect x="668" y="206" width="564" height="360" rx="16" fill="#262624" stroke="#3d3b38"/>
+  <g font-size="15.5" class="body">
+    <text x="694" y="242">Review the site's existing layout, components and styling</text>
+    <text x="694" y="266">conventions, then improve visual hierarchy, spacing,</text>
+    <text x="694" y="290">typography and responsiveness.</text>
+    <text x="694" y="326">Reuse the existing design system and components. Keep</text>
+    <text x="694" y="350">current functionality intact and avoid new dependencies.</text>
+    <text x="694" y="386">If a major design decision comes up, show me the options</text>
+    <text x="694" y="410">and ask before implementing it.</text>
+    <text x="694" y="446">When done, check that the site still builds and works.</text>
+  </g>
+  <text x="696" y="548" font-size="22" class="dim">+</text>
+  <text x="682" y="604" font-size="15" class="muted">Bypass permissions</text>
+  <text x="1218" y="604" font-size="15" text-anchor="end" class="muted"><tspan class="body">Opus 5.5</tspan>  Medium</text>
+
+  <!-- Footer -->
+  <text x="640" y="672" font-size="17" text-anchor="middle" class="muted">Nothing is sent until you press Send.  <tspan fill="#F0A483">↩ Restore original</tspan> brings your draft back.</text>
+</svg>

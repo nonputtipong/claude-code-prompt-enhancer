@@ -1,0 +1,17 @@
+{
+  "name": "prompt-enhancer",
+  "owner": {
+    "name": "nonputtipong",
+    "url": "https://github.com/nonputtipong"
+  },
+  "metadata": {
+    "description": "Prompt Enhancer: a ✻ Enhance button that rewrites your Claude Code draft into a clearer, project-aware prompt."
+  },
+  "plugins": [
+    {
+      "name": "prompt-enhancer",
+      "source": "./plugins/prompt-enhancer",
+      "description": "Adds a ✻ Enhance button above the Claude Code prompt box that rewrites your draft into a clearer, project-aware prompt."
+    }
+  ]
+}

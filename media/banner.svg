@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+  <title id="t">Prompt Enhancer</title>
+  <desc id="d">Turn rough drafts into clear, project-aware prompts, right inside Claude Code.</desc>
+  <defs>
+    <radialGradient id="glow" cx="0.245" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#D97757" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0A483"/>
+      <stop offset="1" stop-color="#D97757"/>
+    </linearGradient>
+    <style>
+      text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+      .star { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { transform: scale(0.92) rotate(0deg); } 50% { transform: scale(1.06) rotate(22.5deg); } }
+      @media (prefers-reduced-motion: reduce) { .star { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="#191918"/>
+  <rect width="1280" height="360" rx="24" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="23.5" fill="none" stroke="#33312e"/>
+
+  <g transform="translate(61 0)">
+  <g transform="translate(250 180)">
+    <g class="star" fill="url(#petal)">
+      <ellipse cx="0" cy="-31" rx="8" ry="31"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-31" rx="8" ry="31" transform="rotate(315)"/>
+    </g>
+  </g>
+
+  <text x="372" y="168" font-size="76" font-weight="700" fill="#ECEAE5" letter-spacing="-1.5">Prompt Enhancer</text>
+  <text x="375" y="216" font-size="26" fill="#A3A09A">Turn rough drafts into clear, project-aware prompts,</text>
+  <text x="375" y="250" font-size="26" fill="#A3A09A">right inside Claude Code.</text>
+
+  <g font-size="17" font-weight="600">
+    <rect x="375" y="280" width="168" height="36" rx="18" fill="#2a2826" stroke="#D97757" stroke-opacity="0.55"/>
+    <text x="459" y="304" text-anchor="middle" fill="#F0A483">Claude Code mod</text>
+    <rect x="555" y="280" width="198" height="36" rx="18" fill="#2a2826" stroke="#3a3936"/>
+    <text x="654" y="304" text-anchor="middle" fill="#CFCCC6">Desktop + terminal</text>
+    <rect x="765" y="280" width="178" height="36" rx="18" fill="#2a2826" stroke="#3a3936"/>
+    <text x="854" y="304" text-anchor="middle" fill="#CFCCC6">Never auto-sends</text>
+  </g>
+  </g>
+</svg>

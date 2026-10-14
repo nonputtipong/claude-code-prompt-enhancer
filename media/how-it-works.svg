@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="t d">
+  <title id="t">How Prompt Enhancer works</title>
+  <desc id="d">Your draft plus project files, the best-matching installed skills and the recent conversation go to one Claude Sonnet call with no tools. The rewrite comes back into your prompt box and is never sent. Secret-looking and git-ignored files are never read.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#D97757"/>
+    </marker>
+    <style>
+      text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+      .h { fill: #ECEAE5; font-size: 19px; font-weight: 600; }
+      .s { fill: #A3A09A; font-size: 15px; }
+      .box { fill: #262624; stroke: #3d3b38; }
+      .flow { stroke: #D97757; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1280" height="440" rx="24" fill="#191918"/>
+  <rect x="0.5" y="0.5" width="1279" height="439" rx="23.5" fill="none" stroke="#33312e"/>
+  <text x="48" y="58" font-size="15" font-weight="700" letter-spacing="2" fill="#F0A483">HOW IT WORKS</text>
+
+  <!-- 1 Draft -->
+  <rect class="box" x="48" y="160" width="220" height="124" rx="14"/>
+  <text class="h" x="72" y="200">Your draft</text>
+  <text class="s" x="72" y="230" font-style="italic">"fix that bug"</text>
+  <text class="s" x="72" y="256">read from the prompt box</text>
+
+  <path class="flow" d="M276 222 H308"/>
+
+  <!-- 2 Context -->
+  <rect class="box" x="318" y="92" width="330" height="72" rx="14"/>
+  <text class="h" x="342" y="124">Project files</text>
+  <text class="s" x="342" y="148">README · CLAUDE.md · package.json</text>
+  <rect class="box" x="318" y="186" width="330" height="72" rx="14"/>
+  <text class="h" x="342" y="218">Installed skills</text>
+  <text class="s" x="342" y="242">best 25 described, every other by name</text>
+  <rect class="box" x="318" y="280" width="330" height="72" rx="14"/>
+  <text class="h" x="342" y="312">Recent conversation</text>
+  <text class="s" x="342" y="336">so "that bug" means the right bug</text>
+
+  <path class="flow" d="M656 222 H688"/>
+
+  <!-- 3 Model -->
+  <rect x="698" y="160" width="252" height="124" rx="14" fill="#2a2826" stroke="#D97757" stroke-opacity="0.7"/>
+  <text class="h" x="722" y="200">One Claude Sonnet call</text>
+  <text class="s" x="722" y="230">no tools: it can only write</text>
+  <text class="s" x="722" y="256">text, never run anything</text>
+
+  <path class="flow" d="M958 222 H990"/>
+
+  <!-- 4 Result -->
+  <rect class="box" x="1000" y="160" width="232" height="124" rx="14"/>
+  <text class="h" x="1024" y="200">Back in your box</text>
+  <text class="s" x="1024" y="230">never sent for you</text>
+  <text class="s" x="1024" y="256">↩ Restore original anytime</text>
+
+  <!-- Privacy note -->
+  <g transform="translate(48 392)">
+    <rect x="0" y="-6" width="14" height="11" rx="2" fill="#A3A09A"/>
+    <path d="M3 -6 v-4 a4 4 0 0 1 8 0 v4" fill="none" stroke="#A3A09A" stroke-width="2"/>
+    <text x="26" y="5" font-size="16" fill="#A3A09A">Never read: <tspan fill="#ECEAE5">.env</tspan>, keys, credentials and git-ignored files. Text inside your files and chat is treated as data, not instructions.</text>
+  </g>
+</svg>
