@@ -4,14 +4,13 @@
   <defs>
     <symbol id="spark" viewBox="-64 -64 128 128">
       <g fill="#F0A483">
-        <ellipse cx="0" cy="-31" rx="9" ry="31"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(45)"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(90)"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(135)"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(180)"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(225)"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(270)"/>
-        <ellipse cx="0" cy="-31" rx="9" ry="31" transform="rotate(315)"/>
+        <circle r="13"/>
+        <path d="M0 -21 C -2 -29 -11 -41 -11 -51 A 11 11 0 0 1 11 -51 C 11 -41 2 -29 0 -21 Z"/>
+        <path d="M0 -21 C -2 -29 -11 -41 -11 -51 A 11 11 0 0 1 11 -51 C 11 -41 2 -29 0 -21 Z" transform="rotate(60)"/>
+        <path d="M0 -21 C -2 -29 -11 -41 -11 -51 A 11 11 0 0 1 11 -51 C 11 -41 2 -29 0 -21 Z" transform="rotate(120)"/>
+        <path d="M0 -21 C -2 -29 -11 -41 -11 -51 A 11 11 0 0 1 11 -51 C 11 -41 2 -29 0 -21 Z" transform="rotate(180)"/>
+        <path d="M0 -21 C -2 -29 -11 -41 -11 -51 A 11 11 0 0 1 11 -51 C 11 -41 2 -29 0 -21 Z" transform="rotate(240)"/>
+        <path d="M0 -21 C -2 -29 -11 -41 -11 -51 A 11 11 0 0 1 11 -51 C 11 -41 2 -29 0 -21 Z" transform="rotate(300)"/>
       </g>
     </symbol>
     <style>
